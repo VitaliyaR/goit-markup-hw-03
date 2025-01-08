@@ -73,6 +73,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  border-bottom: ;
 }
 
 .portfolio-name {
@@ -141,6 +142,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  top: 24px;
+  left: 347px;
+  padding: 0px 0px 0px 0px;
 }
 .menu-nav:hover {
   color: #404bbf;
@@ -157,6 +161,7 @@ body {
 .mailto {
   color: #434455;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -175,4 +180,13 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 1158px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
