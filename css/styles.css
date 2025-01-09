@@ -25,6 +25,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 16px;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo-header {
@@ -123,7 +124,7 @@ body {
 
 .section-two {
   background-color: #ffffff;
-  width: 2.8;
+
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -148,6 +149,7 @@ body {
   left: 99px;
   gap: 24;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .list-advantages {
@@ -262,7 +264,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: 8.4;
 }
 
 .portfolio-name-portfolio-discripion {
@@ -294,6 +295,7 @@ body {
 .logo-footer {
   color: #f4f4fd;
   display: inline-block;
+  display: inline-block;
 }
 
 .logo-text {
@@ -310,6 +312,7 @@ ul {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 .container {
@@ -319,8 +322,4 @@ a {
   margin: 0;
   width: 1158px;
   margin: 0 auto;
-}
-
-img {
-  display: block;
 }
