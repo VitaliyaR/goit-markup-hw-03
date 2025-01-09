@@ -148,6 +148,7 @@ body {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: inline-block;
 }
 
 .web {
@@ -198,6 +199,7 @@ body {
 .address {
   font-style: normal;
   display: flex;
+  gap: 40px;
 }
 
 .mailto {
@@ -206,8 +208,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  gap: 40px;
-  display: flex;
 }
 
 .mailto:hover {
@@ -233,7 +233,7 @@ a {
 
 .advantages-list {
   display: flex;
-  width: calc((100%-72px) / 4);
+  width: 28px;
   height: 104px;
   top: 797px;
   left: 99px;
@@ -241,6 +241,10 @@ a {
   margin-bottom: 8px;
 }
 
+.list-advantages {
+  display: flex;
+  gap: 24px;
+}
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -267,6 +271,7 @@ a {
   display: flex;
   margin: 0;
   width: 1158px;
+  margin: 0 auto;
 }
 
 .portfolio-list {
@@ -284,5 +289,5 @@ a {
 }
 
 .advantages {
-  visibility: hidden;
+  display: none;
 }
