@@ -16,10 +16,8 @@ body {
 
 .section-one {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  padding: 188px 0 188px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .list-name {
@@ -41,10 +39,14 @@ body {
 .section-two {
   background-color: #ffffff;
   width: 28;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-three {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .our-team {
@@ -112,10 +114,10 @@ body {
   letter-spacing: 0.02em;
   font-weight: 500;
 }
+
 .button {
   color: #ffffff;
   background-color: #4d5ae5;
-
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -156,13 +158,15 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: block;
+  margin-bottom: 16px;
+  margin-right: 76px;
 }
 
 .logo-header {
   color: #2e2f42;
   display: inline-block;
   margin-bottom: 16px;
-  margin-right: 76px;
 }
 .logo-footer {
   color: #f4f4fd;
@@ -203,6 +207,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   gap: 40px;
+  display: flex;
 }
 
 .mailto:hover {
@@ -228,11 +233,12 @@ a {
 
 .advantages-list {
   display: flex;
-  width: 1128px;
+  width: calc((100%-72px) / 4);
   height: 104px;
   top: 797px;
   left: 99px;
   gap: 24;
+  margin-bottom: 8px;
 }
 
 .header {
@@ -256,7 +262,11 @@ a {
 }
 
 .container {
-  padding: 120px 0 120px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  margin: 0;
+  width: 1158px;
 }
 
 .portfolio-list {
@@ -273,6 +283,6 @@ a {
   border-bottom: 8px;
 }
 
-.dvantages {
+.advantages {
   visibility: hidden;
 }
