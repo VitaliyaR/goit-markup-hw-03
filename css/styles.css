@@ -154,7 +154,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
   margin-right: 76px;
 }
@@ -228,7 +228,7 @@ a {
 
 .advantages-list {
   display: flex;
-
+  width: 82px;
   height: 104px;
   top: 797px;
   left: 99px;
@@ -305,6 +305,7 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: 82px;
 }
 
 img {
