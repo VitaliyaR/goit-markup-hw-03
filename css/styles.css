@@ -25,7 +25,6 @@ body {
   text-transform: uppercase;
   margin-bottom: 16px;
   margin-right: 76px;
-  display: inline-block;
 }
 
 .logo-header {
@@ -150,7 +149,6 @@ body {
   left: 99px;
   gap: 24;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .list-advantages {
@@ -265,6 +263,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-name-portfolio-discripion {
@@ -292,11 +291,20 @@ body {
   padding-bottom: 100px;
   display: inline-block;
 }
-
+.web-footer {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  margin-right: 76px;
+  display: inline-block;
+}
 .logo-footer {
   color: #f4f4fd;
-  display: inline-block;
-  display: inline-block;
 }
 
 .logo-text {
@@ -323,4 +331,8 @@ a {
   margin: 0;
   width: 1158px;
   margin: 0 auto;
+}
+
+img {
+  display: block;
 }
