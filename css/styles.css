@@ -99,6 +99,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-discripion {
@@ -227,7 +228,7 @@ a {
 
 .advantages-list {
   display: flex;
-  width: 82px;
+
   height: 104px;
   top: 797px;
   left: 99px;
@@ -238,6 +239,7 @@ a {
 .list-advantages {
   display: flex;
   gap: 24px;
+  width: 82px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -285,6 +287,7 @@ a {
 .section-three-ul {
   display: flex;
   gap: 24px;
+  width: 82px;
 }
 
 .team-name-position {
@@ -292,7 +295,7 @@ a {
   padding-bottom: 32px;
 }
 
-section-four {
+.section-four {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -302,4 +305,20 @@ section-four {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+img {
+  display: block;
+}
+
+.advantages {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  white-space: nowrap;
 }
