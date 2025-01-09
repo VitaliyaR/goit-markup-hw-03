@@ -59,11 +59,9 @@ body {
   margin-bottom: 72px;
 }
 
-.section-three-ul {
+.section-three-li {
   background-color: #ffffff;
-  display: flex;
-  gap: 24px;
-  width: calc((100%-72px) / 4);
+  width: 82px;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -83,10 +81,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-}
-
-.name-position {
-  padding: 32px 0 32px;
 }
 
 .our-portfolio {
@@ -233,7 +227,7 @@ a {
 
 .advantages-list {
   display: flex;
-  width: 28px;
+  width: 82px;
   height: 104px;
   top: 797px;
   left: 99px;
@@ -283,11 +277,29 @@ a {
 
 .portfolio-name-portfolio-discripion {
   padding: 32px 16px;
-  border: 1px colis #e7e9fc;
+  border: 1px solid #e7e9fc;
   border-top: none;
-  border-bottom: 8px;
+  margin-bottom: 8px;
 }
 
-.advantages {
-  display: none;
+.section-three-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.team-name-position {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+section-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
