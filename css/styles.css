@@ -11,6 +11,7 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
+  max-width: 496px;
 }
 
 .section-one {
@@ -18,6 +19,7 @@ body {
   width: 1440px;
   height: 600px;
   top: 72px;
+  padding: 188px 0 188px;
 }
 
 .list-name {
@@ -26,6 +28,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .list {
@@ -37,11 +40,13 @@ body {
 
 .section-two {
   background-color: #ffffff;
+  width: 28;
 }
 
 .section-three {
   background-color: #f4f4fd;
 }
+
 .our-team {
   color: #2e2f42;
   font-size: 36px;
@@ -49,9 +54,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+
 .section-three-ul {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
+  width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name-team {
@@ -60,6 +71,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .position-team {
@@ -67,6 +80,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.name-position {
+  padding: 32px 0 32px;
 }
 
 .our-portfolio {
@@ -76,7 +94,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  border-bottom: ;
+  margin-bottom: 72px;
 }
 
 .portfolio-name {
@@ -97,6 +115,7 @@ body {
 .button {
   color: #ffffff;
   background-color: #4d5ae5;
+
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -108,6 +127,11 @@ body {
   padding: 16px 32px 16px 32px;
   margin: auto;
   display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -202,18 +226,13 @@ a {
   padding-bottom: 120px;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .advantages-list {
   display: flex;
   width: 1128px;
   height: 104px;
   top: 797px;
   left: 99px;
+  gap: 24;
 }
 
 .header {
@@ -234,4 +253,22 @@ a {
   display: flex;
   gap: 40px;
   margin-right: 40px 0;
+}
+
+.container {
+  padding: 120px 0 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-name-portfolio-discripion {
+  padding: 32px 16px;
+  border: 1px colis #e7e9fc;
+  border-top: none;
+  border-bottom: 8px;
 }
