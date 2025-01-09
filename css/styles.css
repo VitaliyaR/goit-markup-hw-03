@@ -25,7 +25,6 @@ body {
   text-transform: uppercase;
   margin-bottom: 16px;
   margin-right: 76px;
-  display: inline-block;
 }
 
 .logo-header {
@@ -124,19 +123,21 @@ body {
 
 .section-two {
   background-color: #ffffff;
-  width: 28;
+  width: 2.8;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .advantages-list {
@@ -254,7 +255,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: 82px;
 }
 
 .portfolio-list {
@@ -262,6 +262,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: 8.4;
 }
 
 .portfolio-name-portfolio-discripion {
@@ -292,6 +293,7 @@ body {
 
 .logo-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .logo-text {
