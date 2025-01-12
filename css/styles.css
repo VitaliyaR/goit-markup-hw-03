@@ -135,7 +135,7 @@ body {
   margin: -1px;
   padding: 0;
   border: 0;
-  clip-path: insept(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
   white-space: nowrap;
@@ -263,7 +263,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-name-portfolio-discripion {
