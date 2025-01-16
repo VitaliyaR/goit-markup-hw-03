@@ -144,13 +144,13 @@ body {
 }
 
 .advantages-list {
+  width: 254px;
   display: flex;
   height: 104px;
   top: 797px;
   left: 99px;
   gap: 24px;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .list-advantages {
