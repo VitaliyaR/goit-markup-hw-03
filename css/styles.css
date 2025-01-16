@@ -317,6 +317,10 @@ body {
   max-width: 264px;
 }
 
+.container-footer {
+  display: inline-block;
+}
+
 /*------------------------------OTHERS---------------------------------*/
 ul {
   list-style: none;
@@ -334,7 +338,6 @@ a {
   margin: 0;
   width: 1158px;
   margin: 0 auto;
-  display: inline-block;
 }
 
 img {
