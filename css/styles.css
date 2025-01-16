@@ -309,6 +309,7 @@ body {
 
 .logo-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .logo-text {
