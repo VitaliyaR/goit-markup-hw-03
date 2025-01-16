@@ -332,10 +332,8 @@ a {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   display: flex;
-  margin: 0;
   width: 1158px;
   margin: 0 auto;
 }
