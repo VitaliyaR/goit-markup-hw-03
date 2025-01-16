@@ -155,7 +155,6 @@ body {
 .list-advantages {
   display: flex;
   gap: 24px;
-  width: 82px;
 }
 
 .list-name {
