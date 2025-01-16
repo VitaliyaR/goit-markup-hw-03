@@ -304,12 +304,10 @@ body {
   text-transform: uppercase;
   margin-bottom: 16px;
   margin-right: 76px;
-  display: inline-block;
 }
 
 .logo-footer {
   color: #f4f4fd;
-  display: inline-block;
 }
 
 .logo-text {
@@ -336,6 +334,7 @@ a {
   margin: 0;
   width: 1158px;
   margin: 0 auto;
+  display: inline-block;
 }
 
 img {
