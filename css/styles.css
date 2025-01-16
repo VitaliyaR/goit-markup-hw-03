@@ -309,6 +309,7 @@ body {
 
 .logo-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .logo-text {
@@ -316,7 +317,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  display: inline-block;
 }
 
 /*------------------------------OTHERS---------------------------------*/
