@@ -144,8 +144,7 @@ body {
 }
 
 .advantages-list {
-  width: 254px;
-  display: flex;
+  width: calc((100% - 72px) / 4);
   height: 104px;
   top: 797px;
   left: 99px;
@@ -156,6 +155,7 @@ body {
 .list-advantages {
   display: flex;
   gap: 24px;
+  width: 82px;
 }
 
 .list-name {
