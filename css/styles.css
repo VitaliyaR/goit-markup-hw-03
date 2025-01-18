@@ -206,13 +206,14 @@ container-title {
 
 .flex-class-section-two {
   display: flex;
+  max-height: 120px;
 }
 
 .list-name-diligence {
   margin-bottom: 16px;
   overflow: auto;
   /*-overflow: hidden;--*/
-  max-height: 20px;
+  /*-max-height: 120px;-*/
 }
 /*----------------------------SECTION-THREE----------------------------*/
 
