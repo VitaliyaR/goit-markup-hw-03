@@ -341,7 +341,7 @@ a {
 
 .flex-class-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 img {
