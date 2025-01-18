@@ -188,6 +188,7 @@ container-title {
   order: 1;
   flex-grow: 0;
   margin: 8px 0px;
+  overflow: auto;
 }
 
 /*----------------------------SECTION-THREE----------------------------*/
@@ -363,7 +364,6 @@ a {
 
 .flex-class-section-two {
   display: flex;
-  max-height: 72px;
 }
 
 img {
