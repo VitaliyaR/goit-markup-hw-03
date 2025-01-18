@@ -117,6 +117,7 @@ body {
   border-radius: 4px;
   gap: 10;
   margin-top: 46px;
+  display: block;
 
   display: flex;
   flex-direction: row;
@@ -145,7 +146,7 @@ container-title {
 .section-two {
   background-color: #ffffff;
 
-  padding-top: 125px;
+  padding-top: 120px;
   padding-bottom: 120px;
   /*margin-left: 99px;-*/
 }
@@ -253,8 +254,6 @@ container-title {
 .team-name-position {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .name-team {
@@ -264,7 +263,7 @@ container-title {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  margin: 0px;
+  margin-bottom: 8px;
 }
 
 .position-team {
@@ -273,7 +272,6 @@ container-title {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 8px;
 }
 
 /*----------------------------------SECTION FOUR(4)--------------------------------*/
