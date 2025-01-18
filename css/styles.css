@@ -23,8 +23,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   margin-right: 76px;
+  height: 24px;
 }
 
 .logo-header {
