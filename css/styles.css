@@ -54,7 +54,7 @@ body {
   font-style: normal;
   gap: 40px;
   /*justify-content: flex-end;*/
-  display: flex; /*--test--*/
+  /*display: flex;*/ /*--test--*/
   margin-left: auto;
 }
 
