@@ -202,6 +202,7 @@ container-title {
   flex-grow: 0;
   margin: 8px 0px;
   text-align: left;
+  margin-bottom: 16px;
 }
 
 .flex-class-section-two {
@@ -209,13 +210,6 @@ container-title {
   max-height: 120px;
 }
 
-.list-name-diligence {
-  margin-bottom: 16px;
-  overflow: auto;
-  /*-owidth: 265px;--*/
-  /*-overflow: hidden;--*/
-  /*-max-height: 120px;-*/
-}
 /*----------------------------SECTION-THREE----------------------------*/
 
 .section-three {
