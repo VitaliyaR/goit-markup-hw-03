@@ -149,7 +149,12 @@ container-title {
 
 .list-advantages {
   display: flex;
-  gap: 24px;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8;
+  padding: 0px;
 }
 
 .advantages-list {
