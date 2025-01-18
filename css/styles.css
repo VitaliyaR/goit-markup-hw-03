@@ -130,8 +130,8 @@ container-title {
 .section-two {
   background-color: #ffffff;
 
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;-*/
+  /*padding-bottom: 120px;-*/
 }
 
 .visually-hidden {
@@ -147,6 +147,11 @@ container-title {
   white-space: nowrap;
 }
 
+.list-advantages {
+  display: flex;
+  gap: 24px;
+}
+
 .advantages-list {
   width: calc((100% - 72px) / 4);
   height: 104px;
@@ -156,18 +161,16 @@ container-title {
   margin-bottom: 8px;
 }
 
-.list-advantages {
-  display: flex;
-  gap: 24px;
-}
-
 .list-name {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  margin: 8px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .list {
@@ -175,6 +178,10 @@ container-title {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
 }
 
 /*----------------------------SECTION-THREE----------------------------*/
@@ -350,7 +357,6 @@ a {
 
 .flex-class-section-two {
   display: flex;
-  flex-direction: row;
 }
 
 img {
