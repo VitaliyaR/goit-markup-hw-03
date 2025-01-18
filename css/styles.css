@@ -188,6 +188,7 @@ container-title {
   order: 1;
   flex-grow: 0;
   margin: 8px 0px;
+  max-height: 72px;
 }
 
 /*----------------------------SECTION-THREE----------------------------*/
