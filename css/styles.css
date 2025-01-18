@@ -353,7 +353,6 @@ container-title {
   margin-bottom: 16px;
   margin-right: 76px;
   display: inline-block;
-  padding: 0px 0px 0px 0px;
 }
 
 .logo-footer {
@@ -371,8 +370,6 @@ container-title {
   display: inline-block;
   display: flex;
   flex-direction: column;
-  padding: 0px 0px 0px 0px;
-  margin-left: 156px;
   margin-top: 100px;
   margin-top: 100px;
 }
