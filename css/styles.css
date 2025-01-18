@@ -330,6 +330,10 @@ a {
   margin: 0 auto;
 }
 
+.flex-class {
+  display: flex;
+}
+
 img {
   display: block;
 }
