@@ -210,7 +210,7 @@ container-title {
 
 .list-name-diligence {
   margin-bottom: 16px;
-  /*-overflow-x: auto;--*/
+  overflow: auto;
   /*-overflow: hidden;--*/
   max-height: 20px;
 }
