@@ -159,8 +159,14 @@ container-title {
   /*margin-bottom: 8px;*/
 
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8;
 
   padding: 0px;
+
+  max-height: 72px;
 }
 
 .list-name {
