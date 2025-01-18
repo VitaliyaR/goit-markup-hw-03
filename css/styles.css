@@ -11,8 +11,8 @@ body {
 }
 
 .nav-one {
-  display: flex;
   align-items: center;
+  display: flex; /*--test--*/
 }
 
 .web {
@@ -36,6 +36,7 @@ body {
   padding: 0px 0px 0px 0px;
   gap: 40px;
   margin-right: 40px 0;
+  display: flex; /*--test--*/
 }
 
 .menu-nav {
@@ -52,6 +53,7 @@ body {
   font-style: normal;
   gap: 40px;
   justify-content: flex-end;
+  display: flex; /*--test--*/
 }
 
 .mailto {
