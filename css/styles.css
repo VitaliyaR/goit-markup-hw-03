@@ -345,7 +345,6 @@ a {
 .flex-class-section-one {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 img {
