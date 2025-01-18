@@ -156,13 +156,14 @@ container-title {
 .advantages-list {
   width: calc((100% - 72px) / 4);
 
-  margin-bottom: 8px;
+  /*margin-bottom: 8px;*/
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 8;
+
   padding: 0px;
 }
 
