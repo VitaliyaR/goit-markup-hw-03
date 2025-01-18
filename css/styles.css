@@ -183,7 +183,7 @@ container-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 2%;
   margin: 8px 0px;
   flex: none;
   order: 0;
