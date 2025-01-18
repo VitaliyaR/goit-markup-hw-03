@@ -37,6 +37,7 @@ body {
   gap: 40px;
   margin-right: 40px 0;
   display: flex; /*--test--*/
+  margin-left: auto;
 }
 
 .menu-nav {
@@ -54,7 +55,6 @@ body {
   gap: 40px;
   justify-content: flex-end;
   display: flex; /*--test--*/
-  margin-left: auto;
 }
 
 .mailto {
