@@ -342,6 +342,12 @@ a {
   align-items: center;
 }
 
+.flex-class-section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 img {
   display: block;
 }
