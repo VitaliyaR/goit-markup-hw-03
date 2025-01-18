@@ -54,7 +54,6 @@ body {
 
 .address {
   display: flex; /*--test--*/
-  align-items: baseline;
   font-style: normal;
   gap: 40px;
 
@@ -345,6 +344,7 @@ a {
 .flex-class-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 img {
