@@ -23,19 +23,17 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 16px;
+
   margin-right: 76px;
 }
 
 .logo-header {
   color: #2e2f42;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .list-menu-nav {
   padding: 0px 0px 0px 0px;
-  display: flex;
   gap: 40px;
   margin-right: 40px 0;
 }
@@ -52,8 +50,8 @@ body {
 
 .address {
   font-style: normal;
-  display: flex;
   gap: 40px;
+  justify-content: flex-end;
 }
 
 .mailto {
@@ -78,6 +76,7 @@ body {
   color: #ffffff;
   background-color: #2e2f42;
   font-size: 56px;
+
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
@@ -104,13 +103,15 @@ body {
   top: 428;
   left: 636px;
   padding: 16px 32px 16px 32px;
-  margin: auto;
+
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+container-title {
 }
 
 .button:hover {
