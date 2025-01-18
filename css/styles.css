@@ -366,6 +366,10 @@ container-title {
   max-width: 264px;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 /*------------------------------OTHERS---------------------------------*/
 ul,
 ol {
