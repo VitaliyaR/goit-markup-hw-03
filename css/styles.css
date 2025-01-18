@@ -117,11 +117,6 @@ body {
   margin: 46px auto;
   /*--margin-top: 46px;--*/
   display: block;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 container-title {
 }
