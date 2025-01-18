@@ -40,7 +40,7 @@ body {
   /*--margin-top: 24px;--*/
   /*--margin-bottom: 24px;--*/
   display: flex; /*--test--*/
-  /*--padding: 24px 0 24px;--*/
+  padding: 24px 0 24px;
 }
 
 .menu-nav {
