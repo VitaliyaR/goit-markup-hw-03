@@ -40,7 +40,7 @@ body {
   /*--margin-top: 24px;--*/
   /*--margin-bottom: 24px;--*/
   display: flex; /*--test--*/
-  padding: 24px 0 24px;
+  /*--padding: 24px 0 24px;--*/
 }
 
 .menu-nav {
@@ -49,6 +49,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
 }
 
 .address {
