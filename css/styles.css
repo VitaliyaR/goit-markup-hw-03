@@ -114,7 +114,7 @@ body {
   border: none;
   border-radius: 4px;
   gap: 10;
-  margin: 46px auto;
+  margin: 46px;
   /*--margin-top: 46px;--*/
   display: block;
 }
@@ -332,8 +332,8 @@ container-title {
 /*------------------------------FOOTER---------------------------------*/
 .footer {
   background-color: #2e2f42;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .web-footer {
