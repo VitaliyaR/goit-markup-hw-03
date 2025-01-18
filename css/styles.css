@@ -276,8 +276,8 @@ container-title {
 /*----------------------------------SECTION FOUR(4)--------------------------------*/
 
 .section-four {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 137px;
+  padding-bottom: 105px;
 }
 
 .our-portfolio {
@@ -288,6 +288,7 @@ container-title {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-top: 0px;
 }
 
 .portfolio-name {
