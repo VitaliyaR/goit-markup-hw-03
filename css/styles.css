@@ -12,7 +12,7 @@ body {
 
 .nav-one {
   align-items: center;
-  justify-content: space-between;
+  display: flex; /*--test--*/
 }
 
 .web {
@@ -23,13 +23,20 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-right: 76px;
 }
 
 .logo-header {
   color: #2e2f42;
+  display: inline-block;
 }
 
 .list-menu-nav {
+  padding: 0px 0px 0px 0px;
+  gap: 40px;
+  margin-right: 40px 0;
+  display: flex; /*--test--*/
 }
 
 .menu-nav {
@@ -43,6 +50,7 @@ body {
 }
 
 .address {
+  display: flex; /*--test--*/
   font-style: normal;
   gap: 40px;
   margin-left: auto;
@@ -324,6 +332,10 @@ a {
 }
 
 .flex-class {
+  display: flex;
+}
+
+.flex-class-top {
   display: flex;
   justify-content: space-between;
 }
