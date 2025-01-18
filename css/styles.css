@@ -176,6 +176,9 @@ container-title {
   gap: 8;
 
   padding: 0px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .list-name {
