@@ -54,6 +54,7 @@ body {
 
 .address {
   display: flex; /*--test--*/
+  align-items: center;
   font-style: normal;
   gap: 40px;
   margin-left: auto;
