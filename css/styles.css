@@ -36,6 +36,8 @@ body {
   padding: 0px 0px 0px 0px;
   gap: 40px;
   margin-right: 40px 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
   display: flex; /*--test--*/
 }
 
