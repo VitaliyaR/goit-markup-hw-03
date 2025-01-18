@@ -35,14 +35,15 @@ body {
 }
 
 .list-menu-nav {
-  padding: 0px 0px 0px 0px;
   gap: 40px;
   margin-right: 40px 0;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  /*--margin-top: 24px;--*/
+  /*--margin-bottom: 24px;--*/
   display: flex; /*--test--*/
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .menu-nav {
