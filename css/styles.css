@@ -166,7 +166,7 @@ container-title {
 }
 
 .advantages-list {
-  width: calc((100% - 71px) / 4);
+  width: calc((100% - 70px) / 4);
 
   /*margin-bottom: 8px;*/
   display: flex;
