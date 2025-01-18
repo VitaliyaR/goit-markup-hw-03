@@ -391,10 +391,11 @@ p {
 }
 
 .container {
-  padding: 0 15px;
-  width: 1158px;
-  /*width: 1196px;*/
-  margin: 0 auto;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex-class {
