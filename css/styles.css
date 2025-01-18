@@ -130,7 +130,7 @@ container-title {
 .section-two {
   background-color: #ffffff;
 
-  margin-top: 125px;
+  padding-top: 125px;
   /*margin-left: 99px;-*/
   /*padding-bottom: 120px;-*/
 }
@@ -155,7 +155,7 @@ container-title {
 
 .advantages-list {
   width: calc((100% - 72px) / 4);
-  gap: 24px;
+
   margin-bottom: 8px;
 
   display: flex;
