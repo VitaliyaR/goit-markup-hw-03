@@ -325,6 +325,7 @@ a {
 
 .flex-class {
   display: flex;
+  justify-content: space-between;
 }
 
 img {
