@@ -159,14 +159,6 @@ container-title {
 
   /*margin-bottom: 8px;*/
 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8;
-
-  padding: 0px;
-
   max-height: 72px;
 }
 
@@ -187,7 +179,9 @@ container-title {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+  flex: none;
+  order: 1;
+  flex-grow: 0;
   margin: 8px 0px;
 }
 
