@@ -320,7 +320,7 @@ container-title {
 /*------------------------------OTHERS---------------------------------*/
 ul {
   list-style: none;
-  /*margin: 0;*/
+  margin: 0;
   padding-left: 0;
 }
 
@@ -330,8 +330,8 @@ a {
 
 .container {
   padding: 0 15px;
-  /*width: 1158px;*/
-  width: 1196px;
+  width: 1158px;
+  /*width: 1196px;*/
   margin: 0 auto;
 }
 
