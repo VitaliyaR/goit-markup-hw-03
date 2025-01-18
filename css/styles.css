@@ -12,6 +12,7 @@ body {
 
 .nav-one {
   align-items: center;
+  justify-content: space-between;
 }
 
 .web {
