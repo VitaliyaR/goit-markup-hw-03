@@ -179,6 +179,7 @@ container-title {
   flex: none;
   order: 0;
   flex-grow: 0;
+  text-align: left;
 }
 
 .list {
@@ -191,6 +192,7 @@ container-title {
   order: 1;
   flex-grow: 0;
   margin: 8px 0px;
+  text-align: left;
 }
 
 /*----------------------------SECTION-THREE----------------------------*/
