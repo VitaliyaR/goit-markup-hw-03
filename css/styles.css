@@ -209,7 +209,10 @@ container-title {
 }
 
 .list-name-diligence {
-  margin-bottom: 26px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 /*----------------------------SECTION-THREE----------------------------*/
 
