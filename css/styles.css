@@ -182,7 +182,7 @@ container-title {
 .list {
   color: #434455;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   flex: none;
   order: 1;
@@ -363,6 +363,7 @@ a {
 
 .flex-class-section-two {
   display: flex;
+  max-height: 72px;
 }
 
 img {
