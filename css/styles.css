@@ -30,7 +30,7 @@ body {
 }
 
 .list-menu-nav {
-  margin-left: auto;
+  justify-content: space-between;
 }
 
 .menu-nav {
