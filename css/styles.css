@@ -54,6 +54,7 @@ body {
   gap: 40px;
   justify-content: flex-end;
   display: flex; /*--test--*/
+  margin-left: auto;
 }
 
 .mailto {
