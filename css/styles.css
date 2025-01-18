@@ -40,10 +40,7 @@ body {
   /*--margin-top: 24px;--*/
   /*--margin-bottom: 24px;--*/
   display: flex; /*--test--*/
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 24px 0 24px;
 }
 
 .menu-nav {
@@ -116,7 +113,7 @@ body {
   border: none;
   border-radius: 4px;
   gap: 10;
-  margin-top: 46px;
+  /*--margin-top: 46px;--*/
   display: block;
 
   display: flex;
